@@ -1,10 +1,10 @@
 [
     {
-        "model": "hikes.hike",
+        "model": "hikes.Hike",
         "pk": 1,
         "fields": {
             "name": "Camel's Hump",
-            "date": "2016-01-09 10:09:00",
+            "date": "2016-01-09",
             "map_id": "akievet.p18bi8jn"
         }
     }
