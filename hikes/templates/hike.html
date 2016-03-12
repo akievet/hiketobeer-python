@@ -1,7 +1,24 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
+
+
 
 {% block content %}
-<h1>on the hike page</h1>
-<h1>{{ hike.date }}</h1>
-<h1>{{ hike.name }}</h1>
+    <h1>{{ hike.name }}</h1>
+    <p>{{ hike.date }}</p>
+    <div class="row">
+        <div class="six columns">
+            <div class="diptyque-container">
+                {% with 'images/'|add:hike.image_file_name as image_static %}
+                <img class="hike__image" src={% static image_static %} />
+                {% endwith %}
+            </div>
+        </div>
+
+        <div class="six columns">
+            <div class="map__container diptyque-container" data-map={{ hike.map_id }}>
+                <div class='map' id={{ hike.map_container_id }}></div>
+            </div>
+        </div>
+    </div>
 {% endblock %}

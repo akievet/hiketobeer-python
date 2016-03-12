@@ -5,7 +5,9 @@
         "fields": {
             "name": "Camel's Hump",
             "date": "2016-01-09",
-            "map_id": "akievet.p18bi8jn"
+            "map_id": "akievet.p18bi8jn",
+            "map_container_id": "map__camelshump",
+            "image_file_name": "heady.png"
         }
     },
     {
@@ -14,7 +16,9 @@
         "fields": {
             "name": "Moosilauke",
             "date": "2015-12-19",
-            "map_id": "akievet.p0j7ica8"
+            "map_id": "akievet.p0j7ica8",
+            "map_container_id": "map__moosilauke",
+            "image_file_name": "heady.png"
         }
     },
     {
@@ -23,7 +27,9 @@
         "fields": {
             "name": "Franconia",
             "date": "2016-01-31",
-            "map_id": "akievet.p46i5m6m"
+            "map_id": "akievet.p46i5m6m",
+            "map_container_id": "map__franconia",
+            "image_file_name": "schillings.png"
         }
     }
 ]

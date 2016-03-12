@@ -11,8 +11,11 @@
      {% load staticfiles %}
 
      <link href='https://api.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
+     <link href={% static 'styles/normalize.css' %} rel="stylesheet" />
+     <link href={% static 'styles/skeleton.css' %} rel="stylesheet" />
+     <link href={% static 'styles/styles.css' %} rel="stylesheet" />
      <script src='https://api.mapbox.com/mapbox.js/v2.2.4/mapbox.js'></script>
-     <!-- <script type="text/javascript" src="{{ STATIC_URL }}js/main.js"></script> -->
+
 </head>
 <body>
 		<div class="container">
